@@ -1,5 +1,3 @@
-# team26
-
 ## Overview
 This is a used-item exchange website for used items for UofT students and staff. 
 
