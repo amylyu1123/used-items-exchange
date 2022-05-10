@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+}
+
+label {
+    display: inline-block;
+    width: 160px;
+    clear: left;
+    text-align: right;
+}
+
+#login_form {
+    margin-top: 250px;
+    margin-left: 35%;
+}
+
+.form_field {
+    border: 1px solid #7ecbff;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.form_submit {
+    width: 120px;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: #0856ca;
+}

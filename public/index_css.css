@@ -1,0 +1,30 @@
+.admin {
+	margin-top: 10%;
+	width: 120px;
+	height: 60px;
+	background-color: black;
+    font-variant: all-small-caps;
+    color: white;
+    font-size: 120%;
+}
+
+.user {
+	width: 120px;
+	height: 60px;
+	background-color: slateblue;
+    font-variant: all-small-caps;
+    color: white;
+    font-size: 120%;
+}
+
+.title {
+	margin-top: 10%;
+	font-size: 40px;
+}
+
+body {
+	background-image: url('backgroud.png');
+	background-color: lightslategrey;
+    background-blend-mode: lighten;
+	text-align: center;
+}

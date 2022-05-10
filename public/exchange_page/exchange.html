@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8">
+    <title>Exchange</title>
+    <link rel="stylesheet" type="text/css" href="../css/exchange.css">
+  </head>
+
+  <body>
+
+    <div>
+      <ul class='navBar'>
+        <li><a class="inactiveBar" href="/main_page">Profile</a></li>
+        <li><a class="inactiveBar" href="/post_box_page">Post</a></li>
+        <li><a class="inactiveBar" href="/display_page">Markets</a></li>
+        <li><a class="activeBar" href="/exchange_page">Exchange</a></li>
+        <li><a class="inactiveBar" href="/logout">Log-out</a></li>
+      </ul>
+    </div>
+
+    <div id="displayAll">
+      <h1>All Received Exchange Requests</h1>
+      <div id="search">
+
+        <!-- source: https://www.w3schools.com/tags/tag_select.asp -->
+        <label for="tags">Search received item exchange request by Category: </label>
+
+        <select name="tags" id="tags">
+          <option value="Any">Any</option>
+          <option value="Clothes">Clothes</option>
+          <option value="Books">Books</option>
+          <option value="Stationery">Stationery</option>
+          <option value="Cosmetics">Cosmetics</option>
+          <option value="Health Product">Health Product</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="displayRequest">
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/exchange.js"></script>
+  </body>
+</html>

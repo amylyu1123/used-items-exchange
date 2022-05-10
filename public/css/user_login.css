@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+}
+
+#login_form {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#sign_up_form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+label {
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+.form_field {
+    border: 1px solid #7ecbff;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.form_submit {
+    width: 120px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color: #0856ca;
+}
+
+#vertical_line {
+    width: 3px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 50%;
+    background-color: #7ecbff;
+}
+
+p.message {
+    margin-left:45%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 15px;
+
+}

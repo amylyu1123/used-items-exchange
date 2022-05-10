@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.navBar {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #7ecbff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.navBar li {
+  height: 100px;
+}
+
+.activeBar {
+  display: block;
+  height: 100px;
+  background-color: #0446aa;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+.inactiveBar {
+  display: block;
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+.inactiveBar:hover:not(.activeBar) {
+  background-color: rgb(59, 158, 240);
+  color: white;
+}
+
+#boxSpecs {
+  background-color: #7ecbff;
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 50px;
+  width: 75%;
+  border-radius: 25px;
+}
+
+.boxInfo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.boxInfo:last-child {
+  margin-bottom: 20px;
+}

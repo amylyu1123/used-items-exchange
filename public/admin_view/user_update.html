@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8">
+    <title>Update User</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+  </head>
+
+  <body>
+    <div class="navibar">
+      <ul class='navBar'>
+        <li><a class="activeBar" href="/admin_page">Users</a></li>
+        <li><a class="inactiveBar" href="/admin_item">Items</a></li>
+        <li><a class="inactiveBar" href="/logout">Log-out</a></li>
+      </ul>
+    </div>
+
+    <div class="title">
+      <h2>Update</h2>
+    </div>
+
+    <div class="Update">
+      <form id="updates">
+        <p>User Name: <input type="text" name="userName" id="userName"/></p>
+        <p>Email: <input type="text" name="userEmail" id="userEmail"/></p>
+        <p>Prefer Exchange Method: <select name="method" id="method"/>
+          <option value="In-person">In-person</option>
+          <option value="Online">Online</option></select></p>
+        <p>Prefer Exchange Building: <select name="building" id="building">
+          <option value="BA">BA</option>
+          <option value="MY">MY</option>
+          <option value="RB">RB</option>
+          <option value="SS">SS</option>
+          <option value="MP">MP</option></select></p>
+
+        <input type="submit" class="save" value="Save" />
+        <button class="cancel" type="button" onclick="location.href='/admin_page'">Cancel</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="../js/user_update.js"></script>
+  </body>
+</html>

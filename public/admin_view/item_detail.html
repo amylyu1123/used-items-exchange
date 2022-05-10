@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8">
+    <title>Item Detail</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin_Item.css">
+  </head>
+
+  <body>
+    <div class="navibar">
+      <ul class='navBar'>
+        <li><a class="inactiveBar" href="/admin_page">Users</a></li>
+        <li><a class="activeBar" href="/admin_item">Items</a></li>
+        <li><a class="inactiveBar" href="/logout">Log-out</a></li>
+      </ul>
+    </div>
+
+    <div class="title">
+      <h2>Detail</h2>
+    </div>
+
+      <div class='image'>
+        <img class='itemImage' alt="Item Image">
+      </div>
+
+      <div class="details">
+        <p>Owner: <span class="name"></span></p>
+        <p>Category: <span class="category"></span></p>
+        <p>Status: <span class="status"></span></p>
+        <p>Description: <span class="description"></span></p>
+        <p>Potential Buyer: <span class="potential"></span></p>
+        <p>ExchangedWith: <span class="exchange"></span></p>
+        <button class="back" onclick="location.href='/admin_item'">Back</button>
+      </div>
+    <script type="text/javascript" src="../js/item_detail.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+
+
+/* navbar CSS*/
+.navBar {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #7ecbff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.navBar li {
+  height: 100px;
+}
+
+.activeBar {
+  display: block;
+  height: 100px;
+  background-color: #0446aa;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+.inactiveBar {
+  display: block;
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+.inactiveBar:hover:not(.activeBar) {
+  background-color: rgb(59, 158, 240);
+  color: white;
+}
+
+/* search bar CSS*/
+.searchbar {
+  margin-left: 150px;
+  margin-top: 30px;
+  float: left;
+}
+
+#searchButton {
+  border-radius: 25px;
+  background-color: khaki;
+}
+
+
+/* page title CSS*/
+.title {
+  position: fixed;
+  margin-left: 150px;
+  font-size: 240%;
+}
+
+/* Item table CSS*/
+#item {
+  margin-top: 5%;
+  margin-left: 25%;
+  float: left;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  background-color: #7ecbff;
+}
+
+tr, td, th {
+  min-width: 200px;
+  text-align: center;
+}
+
+/* box tag search CSS*/
+#searchtag {
+  margin-left: 35px;
+  margin-top: 30px;
+  float: left;
+}
+
+.boxImage {
+  height: 300px;
+  width: 200px;
+}
+
+.image {
+    float: left;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.details {
+  background-color: #7ecbff;
+  margin-left: 30px;
+  margin-top: 197px;
+  float: left;
+  width: 520px;
+  height: 370px;
+  border-radius: 25px;
+}
+
+.details p {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.details .cancel {
+  margin-left: 400px;
+}
+
+.itemImage {
+  height: 200px;
+  width: 200px;
+}
+
+/* Button CSS*/
+.detail {
+  background-color: lightgreen;
+  border-radius: 25px;
+}
+
+.delete, .close {
+  background-color: lightcoral;
+  border-radius: 25px;
+}
+
+.back {
+  border-radius: 25px;
+  margin-left: 400px;
+}
+
+#category {
+  border-radius: 25px;
+}

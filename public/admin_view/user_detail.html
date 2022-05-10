@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8">
+    <title>User Detail</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+  </head>
+
+  <body>
+    <div class="navibar">
+      <ul class='navBar'>
+        <li><a class="activeBar" href="/admin_page">Users</a></li>
+        <li><a class="inactiveBar" href="/admin_item">Items</a></li>
+        <li><a class="inactiveBar" href="/logout">Log-out</a></li>
+      </ul>
+    </div>
+
+    <div class="title">
+      <h2>Detail</h2>
+    </div>
+
+    <div class='image'>
+      <img class='userImage' alt="User Profile Image">
+    </div>
+    
+    <div class="Detail">
+      <p>User Name: <span class="name">user</span></p>
+      <p>Email: <span class="email">user@user.com</span></p>
+      <p>Prefer Exchange Method: <span class="method">In-person</span></p>
+      <p>Prefer Exchange Building: <span class="building">BA</span></p>
+      <button class="back" onclick="location.href='/admin_page'">Back</button>
+    </div>
+
+  <script type="text/javascript" src="../js/user_detail.js"></script>
+  </body>
+</html>

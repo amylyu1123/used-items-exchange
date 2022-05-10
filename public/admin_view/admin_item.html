@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8">
+    <title>Item Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin_Item.css">
+
+  </head>
+
+  <body>
+    <div class="navibar">
+      <ul class='navBar'>
+        <li><a class="inactiveBar" href="/admin_page">Users</a></li>
+        <li><a class="activeBar" href="/admin_item">Items</a></li>
+        <li><a class="inactiveBar" href="/logout">Log-out</a></li>
+      </ul>
+    </div>
+
+    <div class="searchbar">
+      <form class="search" id="search">
+        <input type="text" id="searchOwner" class="searchOwner" placeholder="Owner Name">
+        <input type="submit" id="searchButton" value="Search">
+      </form>
+    </div>
+
+    <div id="searchtag">
+      <!-- source: https://www.w3schools.com/tags/tag_select.asp -->
+      <label for="category">Search Item by Category: </label>
+
+      <select name="category" id="category">
+        <option value="Any">Any</option>
+        <option value="Clothes">Clothes</option>
+        <option value="Books">Books</option>
+        <option value="Stationery">Stationery</option>
+        <option value="Cosmetics">Cosmetics</option>
+        <option value="Health Product">Health Product</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div id="items">
+      <table id="item">
+        <tbody>
+          <tr>
+            <th> Owner </th>
+            <th> Category </th>
+            <th> Status </th>
+            <th> Actions </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <script type="text/javascript" src="../js/admin_item.js"></script>
+  </body>
+</html>
